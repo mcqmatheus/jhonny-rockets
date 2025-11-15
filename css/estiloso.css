@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    font-family: 'american captain';
+}
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar .social-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar .social-icons img {
+    height: 20px;
+    margin: 0 5px;
+}
+.navbar .franchise-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+} 
+.dropdown-menu{
+    line-height: 30px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 0 2px white;
+    display: none;
+}
+.dropdown-menu a{
+    display: block;
+    color: black;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.carrossel{
+    width: 98vw;
+    height: 510px;
+    overflow: hidden;
+}
+.carrossel .banners{
+    width: 800%;
+    animation-name: transicao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.carrossel .banners img{
+    width: 12.7%;
+}
+.link-lojas{
+    width: 100vw;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+.link-lojas .texto-1{
+    font-family: 'american captain';
+    font-size: 45px;
+    text-align: center;
+    padding-top: 150px;
+}
+.link-lojas .texto-2{
+    text-align: center;
+    font-family: 'american captain';
+    font-size: medium;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'american captain';
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    background-color: red;
+    
+}
+.option {
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.option img {
+    width: 100px;
+}
+.option a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.footer {
+    background-color: #3D3D3D;
+    color: white;
+    text-align: left;
+    font-family: 'captain american';
+    padding-top: 50px;
+}
+.newsletter {
+    margin-bottom: 20px;
+}
+.newsletter input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    text-align: left;
+
+}
+.newsletter button {
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'american captain';
+}
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.delivery{
+    background-color: red;
+    font-family: 'american captain';
+    color: white;
+    text-align: center;
+}

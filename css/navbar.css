@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-dois{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar .social-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar .social-icons img {
+    height: 20px;
+    margin: 0 5px;
+}
+.navbar .franchise-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
